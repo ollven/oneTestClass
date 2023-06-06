@@ -17,13 +17,13 @@ public class FifthDummyTest {
 
     @Test
     public void testThatIsSlowButAlwaysFails() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.fail();
     }
 
     @Test
     public void testThatIsSlowButAlwaysPasses() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.assertTrue(true);
     }
 }
