@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello olga!");
         System.out.println("Hello Alice!");
         System.out.println("Hello issue tracker!");
+        System.out.println("-:refs/*");
 
     }
 }
