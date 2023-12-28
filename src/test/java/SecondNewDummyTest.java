@@ -5,25 +5,25 @@ public class SecondNewDummyTest {
 
     @Test
     public void testThatAlwaysFails() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.assertTrue(true);
     }
 
     @Test
     public void testThatAlwaysPasses() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.assertTrue(true);
     }
 
     @Test
     public void testThatIsSlowButAlwaysFails() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.assertTrue(true);
     }
 
     @Test
     public void testThatIsSlowButAlwaysPasses() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assertions.assertTrue(true);
     }
 }
