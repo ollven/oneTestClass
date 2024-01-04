@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="Add one more test class with parralel feature enabled">
+    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="make tests green again">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.teamcity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.teamcity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.teamcity/settings.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.teamcity/settings.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2NYbXTMx97BlaFWT5EuIG7MzaG9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,15 +43,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Olga.Sventukh/IdeaProjects/oneTestClass&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U dependency:sources" />
+      <command value="mvn teamcity-configs:generate" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -99,7 +119,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690378424099</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make all tests pass">
+      <created>1691754469881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691754469881</updated>
+    </task>
+    <task id="LOCAL-00007" summary="make all tests pass">
+      <created>1691756219747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691756219747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="make one tests fail">
+      <created>1691757299704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691757299704</updated>
+    </task>
+    <task id="LOCAL-00009" summary="make tests green again">
+      <created>1691764825698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691764825698</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +165,14 @@
     <MESSAGE value="Create a project with only one test class" />
     <MESSAGE value="Add one more test class" />
     <MESSAGE value="Add one more test class with parralel feature enabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add one more test class with parralel feature enabled" />
+    <MESSAGE value="make all tests pass" />
+    <MESSAGE value="make one tests fail" />
+    <MESSAGE value="make tests green again" />
+    <option name="LAST_COMMIT_MESSAGE" value="make tests green again" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="p4-ProjectCache">
     <option name="serverState">

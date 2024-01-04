@@ -1,6 +1,7 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.commitStatusPublisher
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
+import jetbrains.buildServer.configs.kotlin.buildSteps.ScriptBuildStep
 import jetbrains.buildServer.configs.kotlin.buildSteps.maven
 import jetbrains.buildServer.configs.kotlin.projectFeatures.spaceConnection
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
@@ -56,6 +57,7 @@ object Build : BuildType({
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
         }
+        win64TestBuildStep {}
     }
 
     triggers {
@@ -75,3 +77,15 @@ object Build : BuildType({
         }
     }
 })
+fun BuildSteps.win64TestBuildStep(init: ScriptBuildStep.() -> Unit): ScriptBuildStep {
+    val result = ScriptBuildStep(init)
+
+    result.name = "Test"
+    result.scriptContent =
+        """echo Do Stuff"""
+    result.formatStderrAsError = true
+    step(result)
+
+    return result
+
+}
