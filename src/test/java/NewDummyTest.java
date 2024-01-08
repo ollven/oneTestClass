@@ -5,7 +5,7 @@ public class NewDummyTest {
 
     @Test
     public void testThatAlwaysFails() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(200);
         Assertions.assertTrue(true);
     }
 
