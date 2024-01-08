@@ -17,7 +17,7 @@ public class SecondDummyTest {
 
     @Test
     public void testThatIsSlowButAlwaysFails() throws InterruptedException {
-        Thread.sleep(2800);
+        Thread.sleep(2900);
         Assertions.assertTrue(true);
     }
 
