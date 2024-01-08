@@ -23,7 +23,7 @@ public class NewDummyTest {
 
     @Test
     public void testThatIsSlowButAlwaysPasses() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(1100);
         Assertions.assertTrue(true);
     }
 }
