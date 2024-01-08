@@ -11,7 +11,7 @@ public class NewDummyTest {
 
     @Test
     public void testThatAlwaysPasses() throws InterruptedException {
-        Thread.sleep(1300);
+        Thread.sleep(1400);
         Assertions.assertTrue(true);
     }
 
