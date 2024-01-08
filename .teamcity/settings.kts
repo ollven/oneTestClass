@@ -32,7 +32,7 @@ version = "2023.11"
 
 project {
 
-    buildType(Build)
+    buildType(Build())
 
     features {
         spaceConnection {
@@ -44,8 +44,7 @@ project {
         }
     }
 }
-
-object Build : BuildType({
+class Build : BuildType({
     name = "Build"
 
     vcs {
@@ -58,6 +57,7 @@ object Build : BuildType({
             runnerArgs = "-Dmaven.test.failure.ignore=true"
         }
         win64TestBuildStep {}
+
     }
 
     triggers {
@@ -77,6 +77,7 @@ object Build : BuildType({
         }
     }
 })
+
 fun BuildSteps.win64TestBuildStep(init: ScriptBuildStep.() -> Unit): ScriptBuildStep {
     val result = ScriptBuildStep(init)
 

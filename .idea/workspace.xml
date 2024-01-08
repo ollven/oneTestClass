@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="make tests green again">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="Add uses Build Step to settings.kts file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.teamcity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.teamcity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.teamcity/settings.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.teamcity/settings.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondNewDummyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondNewDummyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -74,6 +77,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Onetestclass_dsl [teamcity-configs:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="teamcity-configs:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/.teamcity" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.Onetestclass_dsl [teamcity-configs:generate]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691764825698</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add uses Build Step to settings.kts file">
+      <created>1704386543949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704386543949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +208,8 @@
     <MESSAGE value="make all tests pass" />
     <MESSAGE value="make one tests fail" />
     <MESSAGE value="make tests green again" />
-    <option name="LAST_COMMIT_MESSAGE" value="make tests green again" />
+    <MESSAGE value="Add uses Build Step to settings.kts file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add uses Build Step to settings.kts file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
