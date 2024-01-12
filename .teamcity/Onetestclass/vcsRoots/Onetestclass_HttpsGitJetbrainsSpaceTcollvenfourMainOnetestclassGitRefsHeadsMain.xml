@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="cf4c38b0-0df4-4ec6-bc57-567076e1e851" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>https://git.jetbrains.space/tcollvenfour/main/onetestclass.git#refs/heads/main</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="ACCESS_TOKEN" />
+  <param name="branch" value="refs/heads/main" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec" value="refs/heads/*" />
+  <param name="tokenId" value="tc_token_id:CID_6a3a4f67673b82f33cef92c47b45a7f5:-1:a8a1e58a-5ed1-481a-932c-337546aabf3a" />
+  <param name="url" value="https://git.jetbrains.space/tcollvenfour/main/onetestclass.git" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="x-oauth-basic" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
