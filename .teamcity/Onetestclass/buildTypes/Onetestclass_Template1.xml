@@ -4,7 +4,15 @@
   <description>wwsw</description>
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="step_1" name="step 1" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="pwd" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings />
     <requirements />
     <build-triggers />
