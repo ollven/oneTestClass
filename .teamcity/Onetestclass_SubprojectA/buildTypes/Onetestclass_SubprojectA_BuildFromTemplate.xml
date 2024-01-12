@@ -5,7 +5,9 @@
   <settings ref="Onetestclass_Template1">
     <parameters />
     <build-runners />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Onetestclass_SubprojectA_HttpsGithubComOllvenHelloWorldIdeaProject" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
