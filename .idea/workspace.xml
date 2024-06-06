@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="Add one more test class with parralel feature enabled">
+    <list default="true" id="2496cc23-4055-4004-b393-4918177a76b0" name="Changes" comment="Add uses Build Step to settings.kts file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.teamcity/settings.kts" beforeDir="false" afterPath="$PROJECT_DIR$/.teamcity/settings.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondNewDummyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondNewDummyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2NYbXTMx97BlaFWT5EuIG7MzaG9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,15 +46,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Olga.Sventukh/IdeaProjects/oneTestClass&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U dependency:sources" />
+      <command value="mvn teamcity-configs:generate" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -54,6 +77,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Onetestclass_dsl [teamcity-configs:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="teamcity-configs:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/.teamcity" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.Onetestclass_dsl [teamcity-configs:generate]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +152,42 @@
       <option name="project" value="LOCAL" />
       <updated>1690378424099</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make all tests pass">
+      <created>1691754469881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691754469881</updated>
+    </task>
+    <task id="LOCAL-00007" summary="make all tests pass">
+      <created>1691756219747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691756219747</updated>
+    </task>
+    <task id="LOCAL-00008" summary="make one tests fail">
+      <created>1691757299704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691757299704</updated>
+    </task>
+    <task id="LOCAL-00009" summary="make tests green again">
+      <created>1691764825698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691764825698</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add uses Build Step to settings.kts file">
+      <created>1704386543949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704386543949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +205,15 @@
     <MESSAGE value="Create a project with only one test class" />
     <MESSAGE value="Add one more test class" />
     <MESSAGE value="Add one more test class with parralel feature enabled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add one more test class with parralel feature enabled" />
+    <MESSAGE value="make all tests pass" />
+    <MESSAGE value="make one tests fail" />
+    <MESSAGE value="make tests green again" />
+    <MESSAGE value="Add uses Build Step to settings.kts file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add uses Build Step to settings.kts file" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="p4-ProjectCache">
     <option name="serverState">
