@@ -6,7 +6,7 @@ public class ThirdDummyTest {
     @Test
     public void testThatAlwaysFails() throws InterruptedException {
         Thread.sleep(3000);
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
     }
 
     @Test
