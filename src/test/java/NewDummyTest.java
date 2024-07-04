@@ -6,19 +6,19 @@ public class NewDummyTest {
     @Test
     public void testThatAlwaysFails() throws InterruptedException {
         Thread.sleep(200);
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
     }
 
     @Test
     public void testThatAlwaysPasses() throws InterruptedException {
         Thread.sleep(2000);
-        Assertions.assertTrue(false);
+        Assertions.assertTrue(true);
     }
 
     @Test
     public void testThatIsSlowButAlwaysFails() throws InterruptedException {
         Thread.sleep(2000);
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
     }
 
     @Test
